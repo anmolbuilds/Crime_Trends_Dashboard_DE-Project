@@ -16,8 +16,9 @@ ETL, PostgreSQL, Prefect, and Metabase.
 
 ## 1. Project overview
 
-CrimeTrends collects public police-log records from Cambridge,
-Massachusetts, validates and transforms them, loads them into
+This project collects public police-log records from Cambridge,
+Massachusetts [Daily Police Log](https://data.cambridgema.gov/Public-Safety/Daily-Police-Log/3gki-wyrb)
+(Socrata dataset `3gki-wyrb`), validates and transforms them, loads them into
 PostgreSQL, and presents analytical views in Metabase.
 
 ### High-level architecture
