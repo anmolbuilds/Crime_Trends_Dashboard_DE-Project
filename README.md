@@ -123,19 +123,20 @@ py --version
 If any tool is missing, use the corresponding installation method below.
 1. Git
 Install using PowerShell:
+
 winget install --id Git.Git -e --source winget
 
-Official website: Git for Windows
-2. Python
+
+3. Python
 Install Python 3.12:
+
 winget install --id Python.Python.3.12 -e --source winget
 
-Official website: Python Downloads
-3. Docker Desktop
-Install Docker Desktop:
-winget install --id Docker.DockerDesktop -e --source winget
 
-Official website: Docker Desktop
+5. Docker Desktop
+Install Docker Desktop:
+
+winget install --id Docker.DockerDesktop -e --source winget
 
 Important: After installation:
 1. Restart Windows if requested.
@@ -143,7 +144,9 @@ Important: After installation:
 3. Wait until Docker Engine shows as running.
 Docker Compose is included with Docker Desktop, so you don't need to install it separately.
 4. Verify all installations
+   
 Close and reopen PowerShell, then execute:
+
 git --version
 python --version
 docker --version
