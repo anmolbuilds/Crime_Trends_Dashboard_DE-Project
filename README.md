@@ -135,7 +135,7 @@ cd "$HOME\Desktop"
 Clone your project's actual GitHub repository:
 
 ``` powershell
-git clone <YOUR_CRIMETRENDS_GITHUB_REPOSITORY_URL>
+git clone https://github.com/anmolbuilds/Crime_Trends_Dashboard_DE-Project.git
 cd CrimeTrends
 ```
 
