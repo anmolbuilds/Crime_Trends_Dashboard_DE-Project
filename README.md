@@ -10,8 +10,7 @@
 > **Cloud deployment:** AWS EC2 (Ubuntu 24.04, Docker Compose)
 
 This README documents the **CrimeTrends project implementation**: Python
-ETL, PostgreSQL, Prefect, and Metabase. It is not the separate
-Streamlit/Lambda/S3 implementation described in the reference README.
+ETL, PostgreSQL, Prefect, and Metabase.
 
 ------------------------------------------------------------------------
 
